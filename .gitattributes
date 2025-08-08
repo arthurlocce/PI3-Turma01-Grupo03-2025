@@ -1,0 +1,16 @@
+
+*.ts linguist-detectable=true
+*.tsx linguist-detectable=true
+*.js linguist-detectable=true
+*.jsx linguist-detectable=true
+*.py linguist-detectable=true
+*.java linguist-detectable=true
+*.cs linguist-detectable=true
+*.cpp linguist-detectable=true
+*.html linguist-detectable=true
+*.css linguist-detectable=true
+
+node_modules/* linguist-vendored=true
+dist/*          linguist-generated=true
+build/*         linguist-generated=true
+*.min.js        linguist-generated=true
